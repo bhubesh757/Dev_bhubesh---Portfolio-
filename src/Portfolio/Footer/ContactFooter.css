@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+.contact-header {
+    padding: 20px;   
+    /* margin-top: 80px; */
+    /* display: flex; */
+}
+.contact-div-main {
+    display: flex;
+  }
+
+  
+  .dark-mode a {
+    color: white;
+    
+  }
+  
+  .contact-div-main > * {
+    flex: 1;
+    margin-bottom: 30px;
+    
+  }
+  
+  .contact-title {
+    font-size: 50px;
+    font-weight: 400;
+    padding: 20px;
+    /* font-family: 'Press Start 2P', cursive; */
+    font-family: 'Monoton', cursive;
+    text-transform: uppercase;
+  }
+  
+  .contact-detail,
+  .contact-detail-email {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #868e96;
+    text-decoration: none;
+  }
+  
+  .contact-detail:hover,
+  .contact-detail-email:hover {
+    color: black;
+    text-shadow: 2px 1px 2px #b5b5b5;
+    transition: all 0.3s;
+  }
+  
+  .contact-subtitle {
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+  }
+  
+  .contact-text-div {
+    margin-top: 1.5rem;
+  }
+  
+  .contact-margin-top {
+    margin-top: 4rem;
+  }
+  
+  .contact-image-div > img {
+    max-width: 100%;
+    /* height: auto; */
+    margin-left: 1.5rem;
+    margin-top: -4rem;
+
+    max-width: 100%;
+    height: auto;
+    /* margin-top: 50px; */
+  }
+
+  .contactfooter__media {
+      margin-left: 150px;
+  }
+  
+  /* Media Query */
+  @media (max-width: 1380px), (max-width: 768px) {
+    .contact-title {
+      font-size: 56px;
+      font-weight: 400;
+      text-align: center;
+    }
+  
+    .contact-title {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .contact-subtitle {
+      font-size: 16px;
+      line-height: normal;
+      text-align: center;
+    }
+  
+    .contact-text-div {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+  
+    .contact-detail,
+    .contact-detail-email {
+      font-size: 20px;
+      /* font-family: 'Rock Salt', cursive; */
+      font-family: 'Kelly Slab', cursive;
+      font-weight: bold;
+    }
+  
+    .contact-image-div {
+      /* display: flex; */
+      /* flex-direction: column; */
+      order: 2;
+    }
+  }

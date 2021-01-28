@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+.skills{
+    padding: 50px;
+}
+
+.skill__maindiv {
+    display: flex;
+}
+
+.skills-text-div {
+    margin-left: 50px;
+    margin-top: -30px;
+    /* display: flex; */
+}
+
+.skill__maindiv > * {
+    flex : 1 ;
+    margin-bottom: 30px;
+}
+
+.skills__imageDiv > img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.skills-heading{
+    font-size: 56px;
+    font-weight: 400;
+    padding: 20px;
+    font-family: 'Graduate', cursive;
+}
+
+.skills-text {
+    padding: 10px;
+}
+
+.skills-text-subtitle {
+  font-size: 18px;
+      text-align: center;
+      /* margin-top: 10px; */
+      font-family: 'Aldrich', sans-serif;
+}
+
+.skills-text {
+  font-size: 23px;
+  font-family: 'Long Cang', cursive;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .skills-heading {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .skills-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+    .greeting-text-p {
+      font-size: 16px;
+      line-height: normal;
+    }
+    .skill__maindiv{
+      flex-direction: column;
+    }
+    .skills-text-div {
+      margin-left: 0px;
+      margin: 20px;
+    }
+    .skills-text {
+      font-size: 23px;
+      font-family: 'Long Cang', cursive;
+    }
+    .skills-text-subtitle {
+      font-size: 18px;
+      text-align: center;
+      /* margin-top: 10px; */
+      font-family: 'Aldrich', sans-serif;
+      
+    }
+    .skills__imageDiv {
+      /* display: none; */
+      order: 2;
+    }
+  }

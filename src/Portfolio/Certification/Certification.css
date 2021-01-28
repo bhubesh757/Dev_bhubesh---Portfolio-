@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+.achievement-heading {
+font-size: 56px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+    font-family: 'Graduate', cursive;
+  }
+  .achievement-subtitle {
+    text-transform: uppercase;
+    margin: 10px;
+    /* margin-bottom: 50px; */
+    padding: 10px;
+    margin-left: 20px;
+    /* align-items: center; */
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+  }
+  .subTitle {
+    color: #868e96;
+  }
+  
+  /* Media Query */
+  @media (max-width: 1380px) {
+    .achievement-heading {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .achievement-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+    .achievement-subtitle {
+      font-size: 16px;
+      line-height: normal;
+      text-align: center;
+    }
+  }
+  
